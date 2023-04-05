@@ -1,0 +1,66 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins',sans-serif;
+}
+.school {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  
+}
+.school h1 {
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.diversity {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.diversity img {
+  height: 20rem;
+  width:45rem;
+  object-fit: cover;
+  margin: 2rem 0rem;
+}
+.diversity h1 {
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.diversity p{
+  text-align:center;
+  width: 40rem;
+  margin-bottom: 2rem;
+
+}
+.vocational {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.vocational img {
+  height: 20rem;
+  width:45rem;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+.vocational h1{
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.vocational p{
+  width: 40rem;
+  margin-bottom: 10rem;
+}
+
+
+
